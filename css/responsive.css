@@ -1,0 +1,235 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .transfot span {
+        font-size: 15px;
+    }
+    .transfot h3 {
+        font-size: 16px;
+    }
+    .banner_main {
+        background-size: auto 64%;
+        padding: 220px 0px 0px 0px;
+    }
+    .text-bg h1 {
+        font-size: 43px;
+        line-height: 52px;
+    }
+    .about {
+        margin-top: -340px;
+    }
+    .yelldark_colo {
+        margin: 0 30px;
+    }
+    .titlepage h2 {
+        font-size: 48px;
+    }
+    ul.location_icon li {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-bg h1 {
+        font-size: 43px;
+        padding-bottom: 20px;
+        line-height: 44px;
+    }
+    .banner_main {
+        padding: 152px 0px 0px 0px;
+        background-color: #efedf0 !important;
+        background: inherit;
+        min-height: 919px;
+    }
+    .header .logo .logo-default {
+      display: none;
+    }
+    .header .logo .logo-mobile {
+        display: inline;
+    }
+    .about {
+        margin-top: 90px;
+    }
+    .transfot h3 {
+        font-size: 19px;
+    }
+    .titlepage h2 {
+        font-size: 37px;
+    }
+    .solution_box {
+        width: 13.3%;
+    }
+    .solution_box i {
+        width: 120px;
+        height: 120px;
+    }
+    .solution_box h4 {
+        font-size: 12px;
+    }
+    .demo_box h3 {
+        font-size: 20px;
+    }
+    ul.location_icon li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner_main {
+        padding: 152px 0px 90px 0px;
+        background-color: #efedf0 !important;
+        background: inherit;
+    }
+  
+    .header .logo .logo-default {
+      display: none;
+    }
+    .header .logo .logo-mobile {
+        display: inline;
+    }
+    .text-bg {
+        max-width: inherit;
+    }
+    .transfot {
+        padding-top: 30px;
+    }
+    .about {
+        margin-top: 90px;
+    }
+    .text-bg h1 {
+        font-size: 48px;
+        line-height: 51px;
+    }
+    .solution_box {
+        width: 25.0%;
+    }
+    .solution_box i {
+        width: 156px;
+        height: 156px;
+    }
+    .description_card {
+        margin-bottom: 30px;
+    }
+    .blac_co {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .co_tru {
+        padding-right: 0px;
+        margin-top: 30px;
+    }
+    .map {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .demo_box {
+        margin-bottom: 30px;
+    }
+    .titlepage h2 {
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .logo {
+        border: inherit;
+        float: left;
+        margin-top: 0px !important;
+    }
+    .banner_main {
+        padding: 152px 0px 90px 0px;
+        background-color: #efedf0 !important;
+        background: inherit;
+    }
+    .header .logo .logo-default {
+      display: none;
+    }
+    .header .logo .logo-mobile {
+        display: inline;
+    }
+    
+    .text-bg {
+        max-width: inherit;
+        margin-top: 0px;
+    }
+    .transfot {
+        padding-top: 30px;
+    }
+    .about {
+        margin-top: 90px;
+    }
+    .text-bg h1 {
+        font-size: 36px;
+        line-height: 51px;
+    }
+
+    .titlepage h2 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .testimonial_box h3 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .solution_box {
+        width: 100%;
+    }
+    .solution_main {
+        justify-content: center;
+    }
+    .solution_box i {
+        margin: 0 auto;
+    }
+    .description_card {
+        margin-bottom: 30px;
+    }
+    .blac_co {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .demo_box h3 {
+        font-size: 16px;
+    }
+    .main_form {
+        max-width: inherit;
+    }
+    .co_tru {
+        padding-right: 0px;
+        margin-top: 30px;
+    }
+    .map {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .demo_box {
+        margin-bottom: 30px;
+    }
+    .right_bottun {
+        margin-top: -40px;
+    }
+    ul.location_icon li {
+        font-size: 18px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
+
